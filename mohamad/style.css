@@ -1,0 +1,102 @@
+body
+{
+	background:#333333;
+	margin:0;
+	padding:0;
+	font-family:arial;
+	font-size:13px;
+}
+h1
+{
+	color:white;
+	font-size:23px;
+	text-align:center;
+	margin-top:50px;
+}
+h2
+{	
+	color:#479CF1;
+	margin-left:20px;
+}	
+#wrapper
+{
+	width:900px;
+	margin:0 auto;
+}
+#header
+{
+	width:900px;
+	height:120px;
+	background:#479CF1;
+	float:left;
+}
+#menu
+{
+	width:900px;
+	height:30px;
+	background:#878787;
+	float:left;
+}
+#menu ul
+{
+	margin:0;
+	padding:0;
+}
+#menu ul li
+{
+	list-style-type:none;
+	float:left;
+}
+#menu ul li a
+{
+	color:white;
+	text-decoration:none;
+	float:left;
+	padding:5px;
+}
+#content
+{
+	width:900px;
+	min-height:400px;
+	background:#ffffff;
+	float:left;
+}
+#footer
+{
+	width:900px;
+	height:20px;
+	background:#479CF1;
+	float:left;
+}
+/* table */
+table
+{
+	border:thin solid #333;
+	background:#e1e1e1;
+	font-size:14px;
+}
+table tr th
+{
+	background:#479CF1;
+	color:white;
+}
+input[type="text"],input[type="password"]
+{
+	width:200px;
+	height:35px;
+}
+input[type="submit"]
+{
+	width:100px;
+	height:35px;
+	background:#4CB848;
+	color:white;
+}
+
+a
+{
+	padding:5px 10px;
+	color:white;
+	text-decoration:none;
+	background:#333;
+}
